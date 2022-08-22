@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Alan"
 title_separator          : "-"
-name                     : &name "Zhongweiyang(Alan) Xu"
-description              : &description "second year MS/PhD student in UIUC ECE working on multimedia signal processing"
+name                     : &name "Zhongweiyang Xu"
+description              : &description "University of Illinois at Urbana-Champaign", "Electrical and Computer Engineering", "Signal Processing", "Machine Learning", "Sensor Fusion"
 url                      : https://xzwy.github.io/alanweiyang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "xzwy.github.io/alanweiyang.github.io"
@@ -18,6 +18,7 @@ teaser                   :  # filename of teaser fallback teaser image placed in
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
+linkedin                 : "https://www.linkedin.com/in/zhongweiyang-xu-625694160/"
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -40,7 +41,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : "zx21@illinois.edu"
   generatedFields:
     date:
       type               : "date"
@@ -83,7 +84,7 @@ author:
   name             : "Zhongweiyang Xu"
   avatar           : "profile.png"
   bio              : "Graduate Student at University of Illinois Urbana-Champaign"
-  location         : "CSL241"
+  location         : "Urbana, IL, USA"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # example: "http://yourfullgooglescholarurl.com"
