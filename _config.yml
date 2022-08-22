@@ -85,7 +85,7 @@ author:
   bio              : "Graduate Student at University of Illinois Urbana-Champaign"
   location         : "CSL241"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # example: "http://yourfullgooglescholarurl.com"
   email            :
   researchgate     : "https://www.researchgate.net/profile/Zhongweiyang_Xu"
