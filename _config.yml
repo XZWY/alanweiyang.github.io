@@ -76,12 +76,12 @@ author:
   name             : "Zhongweiyang Xu"
   avatar           : "profile.png"
   bio              : "Graduate Student at University of Illinois Urbana-Champaign"
-  location         : "CSL241"
+  location         : "Urbana, USA"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # example: "http://yourfullgooglescholarurl.com"
-  email            :
+  email            : "zx21@illinois.edu"
   researchgate     : "https://www.researchgate.net/profile/Zhongweiyang_Xu"
   uri              :
   bitbucket        :
@@ -109,7 +109,6 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  wechat           : "Xuweiyangln"
 # Reading Files
 include:
   - .htaccess
