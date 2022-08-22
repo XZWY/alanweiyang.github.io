@@ -4,13 +4,12 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
-
 # Site Settings
 locale                   : "en-US"
 title                    : "Alan"
 title_separator          : "-"
-name                     : &name "Zhongweiyang Xu"
-description              : &description "University of Illinois at Urbana-Champaign", "Electrical and Computer Engineering", "Signal Processing", "Machine Learning", "Sensor Fusion"
+name                     : &name "Zhongweiyang(Alan) Xu"
+description              : &description "UIUC Graduate Researcher"
 url                      : https://xzwy.github.io/alanweiyang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "xzwy.github.io/alanweiyang.github.io"
@@ -18,7 +17,6 @@ teaser                   :  # filename of teaser fallback teaser image placed in
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
-linkedin                 : "https://www.linkedin.com/in/zhongweiyang-xu-625694160/"
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -41,7 +39,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "zx21@illinois.edu"
+    email                : "md5"
   generatedFields:
     date:
       type               : "date"
@@ -49,13 +47,11 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
-
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
-
 # Social Sharing
 twitter:
   username               : &twitter
@@ -70,22 +66,19 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
-
 # Analytics
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
-
-
 # Site Author
 author:
   name             : "Zhongweiyang Xu"
   avatar           : "profile.png"
   bio              : "Graduate Student at University of Illinois Urbana-Champaign"
-  location         : "Urbana, IL, USA"
+  location         : "CSL241"
   employer         :
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # example: "http://yourfullgooglescholarurl.com"
   email            :
@@ -117,8 +110,6 @@ author:
   youtube          :
   wikipedia        :
   wechat           : "Xuweiyangln"
-
-
 # Reading Files
 include:
   - .htaccess
@@ -153,16 +144,12 @@ keep_files:
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-
 # Markdown Processing
 kramdown:
   input: GFM
@@ -173,8 +160,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-
 # Collections
 collections:
   teaching:
@@ -189,8 +174,6 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
-
 # Defaults
 defaults:
   # _posts
@@ -246,20 +229,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
 # Plugins
 plugins:
   - jekyll-paginate
@@ -274,8 +252,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -303,8 +279,6 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
-
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
