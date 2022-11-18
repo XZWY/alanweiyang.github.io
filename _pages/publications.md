@@ -9,7 +9,7 @@ author_profile: true
 
 * Learning to Separate Voices by Spatial Regions. [[paper]](https://arxiv.org/pdf/2207.04203.pdf) [[demo]](https://uiuc-earable-computing.github.io/binaural/)\
 **Zhongweiyang Xu**, Romit Roy Choudhury.\
-In The Thirty-ninth International Conference on Machine Learning (*ICML2022*).
+In The Thirty-ninth International Conference on Machine Learning (*ICML 2022*).
 
 
 * Dual-path Attention is All You Need for Audio-Visual Speech Extraction. [[paper]](https://arxiv.org/pdf/2207.04213.pdf)\
