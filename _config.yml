@@ -80,9 +80,9 @@ author:
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : # example: "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=CVPSTP0AAAAJ"
   email            : "zx21@illinois.edu"
-  researchgate     : "https://www.researchgate.net/profile/Zhongweiyang_Xu"
+  researchgate     : # "https://www.researchgate.net/profile/Zhongweiyang_Xu"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,8 +96,8 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/zhongweiyang-xu-625694160/"
+  orcid            : #"http://orcid.org/0009-0009-3477-0170"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
