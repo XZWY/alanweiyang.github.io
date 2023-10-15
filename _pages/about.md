@@ -15,7 +15,7 @@ On the application side, I mostly worked on microphone array speech processing a
 I also work with Professor [Mark Hasegawa-Johnson](http://www.ifp.illinois.edu/~hasegawa/) if any project is related to speech.
 
 ## Education
-* 2018-2021: B.S. in Computer Engineering, University of Illinois Urbana-Champaign, highest honor
+* 2018-2021: B.S. in Computer Engineering, University of Illinois Urbana-Champaign
 * 2021-current: MS/PhD in ECE, University of Illinois Urbana-Champaign
 
 ## Work Experience
