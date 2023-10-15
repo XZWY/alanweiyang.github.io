@@ -22,7 +22,7 @@ I also work with Professor [Mark Hasegawa-Johnson](http://www.ifp.illinois.edu/~
 * 2022 Summer: Research Intern @ Tencent Ethereal Lab, Shenzhen, China
   * Mentored by the Great Researchers **Yupeng shi**, Wenzhe Liu, and Wei Xiao, working on efficient single channel speech enhancement (signal model based)
 * 2023 Summer: Research Intern @ Tencent AI Lab, Bellevue, US
-  * Mentored by the Great Researchers **Yong Xu**, Vinay Kothapally, and Dong Yu, working on working on multi-channel spatial speech coding and simultaneous neural beamforming and coding for noisy speech
+  * Mentored by the Great Researchers **Yong Xu**, Vinay Kothapally, and Dong Yu, working on multi-channel spatial speech coding and simultaneous neural beamforming and coding for noisy speech
 * 2023 Fall: Research Intern @ Meta Reality Lab, Redmond, US
   * Mentored by the Great Researchers **Ali Aroudi**, Ke Tan, Ashutosh Pandey, Buye Xu, Francesco Nesto, and Jung-Suk Lee, project confidential for now...
 
