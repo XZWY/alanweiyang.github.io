@@ -28,5 +28,5 @@ I also work with Professor [Mark Hasegawa-Johnson](http://www.ifp.illinois.edu/~
 
 ## Hobbies:
 * I'm an amateur of the classic GO game, with 4 Duan (in amateur levels). Also, I'm a big fan of the 299-GO-GROUP: who are [[Ying Zhan(战鹰)2D]](https://space.bilibili.com/2051617240?spm_id_from=333.337.0.0), [[Jie Ke(柯洁)9D]](https://space.bilibili.com/525952604?spm_id_from=333.337.0.0), [[Xiao Lian(连笑)9D]](https://space.bilibili.com/526645204?spm_id_from=333.337.0.0).
-* I'm an amateur of basketball, playing guard positions. Big fan of making sarcastic jokes about Lebron James and Kevin Durant 😏. Was fan of Allen Iverson, Kobe Bryant, and Stephen Curry.
+* I'm an amateur of basketball, playing guard positions. Big fan of making sarcastic jokes and judgements about my favourite Lebron James and Kevin Durant 😏. Was fan of Allen Iverson, Kobe Bryant, and Stephen Curry.
 * Big Movie Fan, my favourite directors are Kubrick, Ridley Scott, Villeneuve, Nolan, and the new star Damien Chazelle!
