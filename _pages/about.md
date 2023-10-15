@@ -19,14 +19,14 @@ I also work with Professor [Mark Hasegawa-Johnson](http://www.ifp.illinois.edu/~
 * 2021-current: MS/PhD in ECE, University of Illinois Urbana-Champaign
 
 ## Work Experience
-* 2022 Summer: Research Intern @ Tencent Ethereal Lab, Shenzhen, China\
+* 2022 Summer: Research Intern @ Tencent Ethereal Lab, Shenzhen, China
   * Mentored by the Great Researchers **Yupeng shi**, Wenzhe Liu, and Wei Xiao, working on efficient single channel speech enhancement (signal model based)
-* 2023 Summer: Research Intern @ Tencent AI Lab, Bellevue, US\
+* 2023 Summer: Research Intern @ Tencent AI Lab, Bellevue, US
   * Mentored by the Great Researchers **Yong Xu**, Vinay Kothapally, and Dong Yu, working on working on multi-channel spatial speech coding and simultaneous neural beamforming and coding for noisy speech
-* 2023 Fall: Research Intern @ Meta Reality Lab, Redmond, US \
+* 2023 Fall: Research Intern @ Meta Reality Lab, Redmond, US
   * Mentored by the Great Researchers **Ali Aroudi**, Ke Tan, Ashutosh Pandey, Buye Xu, Francesco Nesto, and Jung-Suk Lee, project confidential for now...
 
 ## Hobbies:
-* I'm an amateur of the classic GO game, with 4 Duan (in amateur levels). Also, I'm a big fan of the 299-GO-GROUP: who are [[Ying Zhan(战鹰)2D]](https://space.bilibili.com/2051617240?spm_id_from=333.337.0.0), [[Jie Ke(柯洁)9D]](https://space.bilibili.com/525952604?spm_id_from=333.337.0.0), [[Xiao Lian(连笑)9D]](https://space.bilibili.com/526645204?spm_id_from=333.337.0.0).
-* I'm an amateur of basketball, playing guard positions. Big fan of making sarcastic jokes and judgements about my favourite Lebron James and Kevin Durant 😏. Was fan of Allen Iverson, Kobe Bryant, and Stephen Curry.
-* Big Movie Fan, my favourite directors are Kubrick, Ridley Scott, Villeneuve, Nolan, and the new star Damien Chazelle!
+* I'm an amateur of the classic GO game, with 4 Duan (in amateur levels). Also, I love the 299-GO-GROUP: including [[Ying Zhan(战鹰)2D]](https://space.bilibili.com/2051617240?spm_id_from=333.337.0.0), [[Jie Ke(柯洁)9D]](https://space.bilibili.com/525952604?spm_id_from=333.337.0.0), [[Xiao Lian(连笑)9D]](https://space.bilibili.com/526645204?spm_id_from=333.337.0.0).
+* For sports, I play basketball(guard). Enjoy making sarcastic jokes and judgements about my favourite Lebron James and Kevin Durant 😏. Was fan of Allen Iverson, Kobe Bryant, and Stephen Curry.
+* Very enthusiastic about films, my favourite directors are Kubrick, Ridley Scott, Villeneuve, Nolan, and the new star Damien Chazelle!
