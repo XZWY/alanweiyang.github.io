@@ -12,7 +12,7 @@ I'm a third year ECE PhD candidate in UIUC [SiNRG](https://sinrg.csl.illinois.ed
 
 On the application side, I mostly worked on microphone array speech processing and audio-visual speech processing (enhancement, dereverberatin, separation, compressive coding). I'm very much into the concept of mixed reality. One example is our [Earable Computing](https://synrg.csl.illinois.edu/earables.html) aiming for acoustics augmented reality. 
 
-I also work with Professor [Mark Hasegawa-Johnson](http://www.ifp.illinois.edu/~hasegawa/) if any project is related to speech processing.
+I also work with Professor [Mark Hasegawa-Johnson](http://www.ifp.illinois.edu/~hasegawa/) if any project is related to speech.
 
 ## Education
 * 2018-2021: B.S. in Computer Engineering, University of Illinois Urbana-Champaign, highest honor
