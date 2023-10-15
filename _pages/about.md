@@ -7,7 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-## About Me
 
 I'm a third year ECE PhD candidate in UIUC [SiNRG](https://sinrg.csl.illinois.edu/) advised by Professor [Romit Roy Choudhury](https://croy.web.engr.illinois.edu/). In general my area is signal processing and data science. My interest is to find the best world between classical signal processing and the current state of deep learning. I believe signal models would create a more **explanable** and **efficient** foundation for today's machine learning models.
 
@@ -15,11 +14,11 @@ On the application side, I mostly worked on microphone array speech processing a
 
 I also work with Professor [Mark Hasegawa-Johnson](http://www.ifp.illinois.edu/~hasegawa/) if any project is related to speech processing.
 
-#### Education
+## Education
 * 2018-2021: B.S. in Computer Engineering, University of Illinois Urbana-Champaign, highest honor
 * 2021-current: MS/PhD in ECE, University of Illinois Urbana-Champaign
 
-#### Work Experience
+## Work Experience
 * 2022 Summer: Research Intern @ Tencent Ethereal Lab, Shenzhen, China\
   * Mentored by the Great Researchers **Yupeng shi**, Wenzhe Liu, and Wei Xiao, working on efficient single channel speech enhancement (signal model based)
 * 2023 Summer: Research Intern @ Tencent AI Lab, Bellevue, US\
