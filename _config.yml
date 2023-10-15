@@ -73,9 +73,9 @@ analytics:
     tracking_id          :
 # Site Author
 author:
-  name             : "Zhongweiyang Xu"
+  name             : "Zhongweiyang Xu (徐钟维扬)"
   avatar           : "profile.png"
-  bio              : "Graduate Student at University of Illinois Urbana-Champaign"
+  bio              : "ECE PhD Candidate at University of Illinois Urbana-Champaign"
   location         : "Urbana, USA"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
