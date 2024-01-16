@@ -27,7 +27,7 @@ Rank 2nd in [[SPEAR Challenge]](https://imperialcollegelondon.github.io/spear-ch
 
 * SpatialCodec: Neural Spatial Speech Coding. [[paper]](https://arxiv.org/abs/2309.07432) [[demo]](https://xzwy.github.io/SpatialCodecDemo) [[code]](https://github.com/XZWY/SpatialCodec)\
 **Zhongweiyang Xu**, Yong Xu, Vinay Kothapally, Heming Wang, Muqiao Yang, Dong Yu.\
-(Preprint)
+(ICASSP2024)
 
 * Unifying Robustness and Fidelity: A Comprehensive Study of Pretrained Generative Methods for Speech Enhancement in Adverse Conditions. [[paper]](https://arxiv.org/pdf/2309.09028.pdf) [[demo]](https://whmrtm.github.io/SoundResynthesis)\
 Heming Wang, Meng Yu, Hao Zhang, Chunlei Zhang, **Zhongweiyang Xu**, Muqiao Yang, Yixuan Zhang, Dong Yu.\
@@ -35,4 +35,4 @@ Heming Wang, Meng Yu, Hao Zhang, Chunlei Zhang, **Zhongweiyang Xu**, Muqiao Yang
 
 * uSee: Unified Speech Enhancement and Editing with Conditional Diffusion Models. [[paper]](https://arxiv.org/pdf/2310.00900.pdf) [[demo]](https://muqiaoy.github.io/usee)\
 Muqiao Yang, Chunlei Zhang, Yong Xu, **Zhongweiyang Xu**, Heming Wang, Bhiksha Raj, Dong Yu.\
-(Preprint)
+(ICASSP2024)
