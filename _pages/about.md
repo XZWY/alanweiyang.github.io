@@ -25,8 +25,3 @@ I also work with Professor [Mark Hasegawa-Johnson](http://www.ifp.illinois.edu/~
   * Mentored by the Great Researchers **Yong Xu**, Vinay Kothapally, and Dong Yu, working on multi-channel spatial speech coding and simultaneous neural beamforming and coding for noisy speech
 * 2023 Fall: Research Intern @ Meta Reality Lab, Redmond, US
   * Mentored by the Great Researchers **Ali Aroudi**, Ke Tan, Ashutosh Pandey, Buye Xu, Francesco Nesto, and Jung-Suk Lee, project confidential for now...
-
-## Hobbies:
-* I'm an amateur of the classic GO game, with 4 Duan (in amateur levels). Also, I love the 299-GO-GROUP: including [[Ying Zhan(战鹰)2D]](https://space.bilibili.com/2051617240?spm_id_from=333.337.0.0), [[Jie Ke(柯洁)9D]](https://space.bilibili.com/525952604?spm_id_from=333.337.0.0), [[Xiao Lian(连笑)9D]](https://space.bilibili.com/526645204?spm_id_from=333.337.0.0).
-* For sports, I play basketball(guard). Enjoy making sarcastic jokes and judgements about my favourite Lebron James and Kevin Durant 😏. Was fan of Allen Iverson, Kobe Bryant, and Stephen Curry.
-* Very enthusiastic about films, my favourite directors are Kubrick, Ridley Scott, Villeneuve, Nolan, and the new star Damien Chazelle!
