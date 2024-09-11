@@ -38,10 +38,10 @@ Muqiao Yang, Chunlei Zhang, Yong Xu, **Zhongweiyang Xu**, Heming Wang, Bhiksha R
 (ICASSP2024)
 
 # 2024
-FoVNet: FoVNet: Configurable Field-of-View Speech Enhancement with Low Computation and Distortion for Smart Glasses [[paper]](https://www.isca-archive.org/interspeech_2024/xu24i_interspeech.pdf)\
+* FoVNet: FoVNet: Configurable Field-of-View Speech Enhancement with Low Computation and Distortion for Smart Glasses [[paper]](https://www.isca-archive.org/interspeech_2024/xu24i_interspeech.pdf)\
 **Zhongweiyang Xu**, Ali Aroudi, Ke Tan, Ashutosh Pandey, Jung-Suk Lee, Buye Xu, Francesco Nesta.\
-(InterSpeech2024)
+(INTERSPEECH2024)
 
-Multi-Source Music Generation with Latent Diffusion [[paper]](https://arxiv.org/abs/2409.06190)[[demo]](https://xzwy.github.io/MSLDMDemo) [[code]](https://github.com/XZWY/MSLDM)\
+* Multi-Source Music Generation with Latent Diffusion [[paper]](https://arxiv.org/abs/2409.06190)[[demo]](https://xzwy.github.io/MSLDMDemo) [[code]](https://github.com/XZWY/MSLDM)\
 **Zhongweiyang Xu**, Debottam Dutta, Yu-Lin Wei, Romit Roy Choudhury.\
 (ICASSP2025 in Submission)
