@@ -1,31 +1,73 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+# Zhongweiyang (Alan) Xu — Personal website
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+A responsive academic portfolio for audio and generative AI research, built with
+HTML, CSS and JavaScript. No npm, Ruby, Jekyll, API keys or paid hosting required.
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+## Preview
 
-# Instructions
+From this repository, run `python3 -m http.server 8000 --bind 127.0.0.1`, then open
+http://127.0.0.1:8000/. You can also open `index.html` directly.
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+## GitHub Pages deployment
 
-See more info at https://academicpages.github.io/
+Repository: https://github.com/XZWY/alanweiyang.github.io
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+Live address: https://xzwy.github.io/alanweiyang.github.io/
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+**Recommended — GitHub Actions:**
 
-# Changelog -- bugfixes and enhancements
+1. Set repository **Settings → Pages → Build and deployment → Source → GitHub Actions**.
+2. Commit and push the changes to `master`.
+3. The included `Deploy personal website` workflow validates links, packages public
+   files, and deploys the artifact. You can also run it manually in the Actions tab.
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+If the default branch changes, update `.github/workflows/pages.yml` accordingly.
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+**Alternative — existing branch deployment:** Keep **Deploy from a branch** with
+**master / (root)**. Remove the optional `.github/workflows/pages.yml` before pushing
+so that both deployment methods do not run. The included `.nojekyll` bypasses the
+old Jekyll build; GitHub serves the new `index.html` directly.
+
+Official reference: https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
+
+## Editing
+
+- `index.html`: biography, research, publications, experience, education and contact.
+- `assets/site/style.css`: typography, colors, responsive layout and reduced motion.
+- `assets/site/main.js`: topic filters, search, mobile menu and active navigation.
+- `assets/site/profile.png`: original portrait supplied for this redesign.
+- `cv2026.pdf`: supplied CV served by all new CV links.
+
+To add a paper, copy an `<article class="publication">` in `index.html`. Set
+`data-topics` to one or more space-separated values: `speech diffusion spatial
+understanding music`. Update the initial HTML publication count; JavaScript
+computes filtered counts automatically. Search combines every query term with
+the selected topic and matches title, authors, year and venue.
+
+All content is readable without JavaScript. The site uses system fonts, local
+assets, and no analytics, cookies, third-party scripts or backend.
+
+## Validate and package
+
+Run `python3 scripts/build.py` (Python 3.9+). The generated `_site/` is ready for
+any static host. Validation covers local links, anchors, unique IDs, image alt
+text and GitHub Pages project-path compatibility.
+
+The original AcademicPages source is retained for reference and rollback; the
+new site does not use it. The Actions artifact excludes that source. Existing
+`/about/`, `/about.html`, `/publications/` and `/cv/` links redirect to new content.
+Existing `files/`, `images/`, `cv2024.pdf` and `weiyang-cv.pdf` remain available.
+
+## Content sources and verification
+
+Professional history and publication status follow the supplied `cv2026.pdf`.
+The Hunyuan audio-understanding and voice-conversation focus was updated from
+the owner’s explicit clarification.
+Social links and existing paper/demo/code URLs come from the previous website.
+New paper links point to arXiv and OpenReview. Education says “MS/PhD studies”
+because the supplied CV does not explicitly assert the degree award.
+
+Includes semantic landmarks, a skip link, visible keyboard focus, labeled search,
+announced result counts, Escape support for the mobile menu and reduced motion.
+Browser visual QA remains pending because computer-use permission was unavailable;
+check desktop and mobile widths before publishing.
