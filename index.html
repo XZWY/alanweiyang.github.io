@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://xzwy.github.io/alanweiyang.github.io/assets/site/profile.png">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="assets/site/favicon.svg" type="image/svg+xml">
-  <script>try{var t=localStorage.getItem("site-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script><link rel="stylesheet" href="assets/site/style.css">
+  <script>(function(){var key="site-theme";try{var t=localStorage.getItem(key);if(t)document.documentElement.dataset.theme=t}catch(e){}window.toggleSiteTheme=function(){var next=document.documentElement.dataset.theme==="dark"?"light":"dark";document.documentElement.dataset.theme=next;try{localStorage.setItem(key,next)}catch(e){}}})()</script><link rel="stylesheet" href="assets/site/style.css">
   <script src="assets/site/main.js" defer></script>
 </head>
 <body>
@@ -22,7 +22,7 @@
 <header class="header">
   <div class="header-inner"><a class="brand" href="#home" aria-label="Zhongweiyang Xu, home"><span class="monogram">zx<span>•</span></span><span class="brand-name">ZHONGWEIYANG XU</span></a>
   <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" hidden>Menu <span aria-hidden="true">＋</span></button>
-  <nav id="navigation" aria-label="Main navigation"><a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a class="nav-cv" href="cv2026.pdf" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span></a><button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark mode" title="Toggle dark mode"><span class="theme-icon" aria-hidden="true">☾</span><span class="sr-only">Toggle color theme</span></button></nav></div>
+  <nav id="navigation" aria-label="Main navigation"><a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a class="nav-cv" href="cv2026.pdf" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span></a><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="window.toggleSiteTheme()"><span class="theme-icon" aria-hidden="true"><span class="theme-icon-moon">☾</span><span class="theme-icon-sun">☀</span></span><span class="sr-only">Toggle color theme</span></button></nav></div>
 </header>
 <main id="main">
 <section class="hero wrap" id="home" aria-labelledby="hero-title">
