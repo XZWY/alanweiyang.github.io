@@ -40,7 +40,7 @@ Official reference: https://docs.github.com/en/pages/getting-started-with-github
 
 To add a paper, copy an `<article class="publication">` in `index.html`. Set
 `data-topics` to one or more space-separated values: `speech diffusion spatial
-understanding music`. Update the initial HTML publication count; JavaScript
+multimodal conversation music`. Update the initial HTML publication count; JavaScript
 computes filtered counts automatically. Search combines every query term with
 the selected topic and matches title, authors, year and venue.
 
