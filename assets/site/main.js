@@ -3,6 +3,19 @@
 const menu = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('#navigation');
 const mobile = window.matchMedia('(max-width: 720px)');
+const themeToggle = document.querySelector('#theme-toggle');
+function setTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+  const dark = theme === 'dark';
+  themeToggle.setAttribute('aria-pressed', String(dark));
+  themeToggle.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+  themeToggle.querySelector('.theme-icon').textContent = dark ? '☀' : '☾';
+  try { localStorage.setItem('site-theme', theme); } catch (_) {}
+}
+setTheme(document.documentElement.dataset.theme || 'light');
+themeToggle.addEventListener('click', () => setTheme(
+  document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'
+));
 function setMenu(open) {
   menu.setAttribute('aria-expanded', String(open));
   menu.querySelector('span').textContent = open ? '−' : '＋';
